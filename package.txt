@@ -1,0 +1,10 @@
+
+		// "bs": "browser-sync start --config src/build/browser-sync.config.js",
+		// "css": "npm-run-all css-compile css-postcss",
+		// "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css --quiet src/scss/bundle.scss:dist/css/bundle.css src/scss/block-editor.scss:dist/css/block-editor.css",
+		// "css-postcss": "postcss --config src/build/postcss.config.js --replace \"dist/css/*.css\"",
+		// "watch": "npm-run-all --parallel watch-run-*",
+		// "watch-bs": "npm-run-all --parallel bs watch-run-*",
+		// "watch-run-css": "nodemon --watch src/scss/ --ext scss --exec \"npm-run-all css\""
+		// could use "npm-run-all": "^4.1.5", "postcss-cli": "^10.1.0", "gulp-nodemon": "^2.5.0",
+		// "gulp-nodemon": "^2.5.0",
