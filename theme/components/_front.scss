@@ -1,0 +1,124 @@
+/* CLIENTS AREA
+-------------------------------------------------- */
+.clients .client-logo {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #f1eeed;
+    border-bottom: 1px solid #f1eeed;
+    overflow: hidden;
+    background: #fff;
+    height: 140px;
+}
+.clients .client-logo img {
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+    &:hover {        
+        filter: none;
+        transform: scale(1.1);         
+    }
+}
+
+.intro-image {
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+
+.header-overlay__grey {
+    background: linear-gradient(to right,rgba(40,40,40,.24),#fff);
+    z-index: -1;
+}
+
+.header-wrapper--about {
+    h2 {
+        margin: 2.75rem 0 1rem;
+    }
+}
+.about ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+}
+.about li {
+    font-size: 1.1rem;
+    padding-bottom: 0.25rem;
+}
+.about ol li {
+    counter-increment: my-awesome-counter;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+.about ol li::before {
+    content: "" counter(my-awesome-counter);
+    font-weight: 700;
+    font-size: 1rem;
+    height: 25px;
+    margin-right: 0.5rem;
+    font-family: serif;
+    line-height: 1;
+    background-color: #60c3be;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+}
+.about .title-contrast {
+    background: #76ded9;
+    background: linear-gradient(90deg,#76ded9 0,#60c3be 35%,#5bb6b1 100%);
+    padding: 10px;
+    text-align: center;
+    background: #76ded9;
+    background: linear-gradient(180deg,#76ded9 0,#60c3be 35%,#5bb6b1 100%);
+}
+.about .list-group-item {
+    background-color:transparent;
+    border-width:0;
+}
+
+.testimonials {
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    h2 {
+        padding-bottom:2rem;
+    }
+}
+.testimonials {
+    blockquote {
+        margin: 0 0 1rem;
+        padding: 0.5625rem 1.25rem 0 1.1875rem;
+        border-left: 1px solid #737373;
+        line-height: 1.6;
+        color: #636363;
+    }
+    blockquote p {     
+        color: #636363;
+        max-width:570px;
+    }
+
+    cite {
+        color: #636363; 
+        display: block;  
+        font-size:0.95;   
+        font-weight: 700;
+        margin-bottom: 2rem;
+        text-align: left;    
+    }
+    
+    cite:before {
+        content: "— ";
+    }
+}

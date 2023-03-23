@@ -1,0 +1,54 @@
+.sumo-form-wrapper.welcome-mat-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+.sumo-form-wrapper.listbuilder-popup, .sumo-form-wrapper.scrollbox-popup, .sumo-form-wrapper.smartbar-popup, .sumo-form-wrapper.welcome-mat-popup {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    z-index: 10000001;
+    font-size: 16px;
+}
+.sumo-form-wrapper {
+    word-wrap: normal;
+    -ms-word-wrap: normal;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    width: auto;
+    line-height: initial;
+    font-style: initial;
+    font-weight: initial;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    opacity: 1;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+    quotes: none;
+    border: none;
+    border: initial;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+// Due to how HTML5 defines its semantics, the autofocus HTML attribute has no effect in Bootstrap modals. To achieve the same effect, use some custom JavaScript.

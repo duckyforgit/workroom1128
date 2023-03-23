@@ -1,0 +1,36 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap/_variables.scss, paste it here and edit the value.
+ 
+
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+$brand-primary: #f55c20;
+$brand-secondary: #00c4e1;
+$orange: #f55c20;  
+$primary: $orange;
+
+  
+
+// $orange-100: tint-color($orange, 80%) !default;
+// $orange-200: tint-color($orange, 60%) !default;
+// $orange-300: tint-color($orange, 40%) !default;
+// $orange-400: tint-color($orange, 20%) !default;
+// $orange-500: $orange !default;
+// $orange-600: shade-color($orange, 20%) !default;
+// $orange-700: shade-color($orange, 40%) !default;
+// $orange-800: shade-color($orange, 60%) !default;
+// $orange-900: shade-color($orange, 80%) !default;
+  // hue, saturation, lightness, alpha opacity
+  // red is 0 green is 120 blue is 240
+$color-theme_deliberatedoing-deck1-1-hsla: hsl(203, 100%, 50%); 
+$color-theme_deliberatedoing-deck1-2-hsla: hsl(186, 100%, 25%);
+$color-theme_deliberatedoing-deck1-3-hsla: hsla(257, 100%, 57%, 0.88);
+//$primary:       $brand-primary;
+//$secondary:     $brand-secondary;
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)

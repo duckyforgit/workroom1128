@@ -1,0 +1,120 @@
+ 
+$lightaqua: #D8EBE9;
+$darkorange: #D6470F;
+$dkaqua: #60C3BE;
+$orange: #F55C20;
+$gray: #707070;
+$white-80: #F8F8F8;
+$black: #0A0A0A;
+ 
+:root {
+	--light-aqua: #{$lightaqua};
+	--dkorange: #{$darkorange};	
+	--dkaqua: #{$dkaqua};
+	--orange: #{$orange};
+	--gray: #{$gray};
+	--white-80: #{$white-80};	
+}
+ .relative-landing {
+	background-color:aquamarine;
+	height:600px;
+	position:relative;
+ } 
+#wrapper-navbar {
+	position:relative;
+	 
+}
+#wpadminbar { display:none; }
+* {
+	margin:0;
+	padding:0;
+  }
+ 
+ body {
+	position:relative;
+ }    
+#banner {
+	//position:absolute;
+	//bottom: -10000px;
+	width:100%;
+	padding:20% 0;
+	background:cadetblue;
+}
+@keyframes slideInUp {
+	from {
+		transform: translate3d(0, 100%, 0);
+		visibility: visible;
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes slideOutUp {
+	from {
+		transform: translate3d(0, 0, 0);
+		
+	}
+	to {
+		visibility: hidden;
+		transform: translate3d(0, -100%, 0);
+	}
+}
+.slideInUp {
+	animation-name: slideInUp;
+}
+.slideOutUp {
+	animation-name: slideOutUp
+}
+#hidden-div {
+	 
+	background-color:#fff;
+	width:100%;
+}
+
+.hidden {
+    height: 0px;
+    -webkit-transition: height 0.5s linear;
+       -moz-transition: height 0.5s linear;
+        -ms-transition: height 0.5s linear;
+         -o-transition: height 0.5s linear;
+            transition: height 0.5s linear;
+	overflow:hidden;
+}
+// when open, set body to overflow:hidden.
+.overflow {
+	overflow:hidden;
+}
+
+.hidden.open {
+     height: 1400px;
+     -webkit-transition: height 0.5s linear;
+        -moz-transition: height 0.5s linear;
+         -ms-transition: height 0.5s linear;
+          -o-transition: height 0.5s linear;
+             transition: height 0.5s linear;
+	position: absolute;
+	// top: -100%;
+	top:0;
+	left: 0;
+	bottom:0;
+	right:0; 
+	width: 100%;
+	// transition: top 1s ease-in-out;
+	pointer-events: auto;
+	z-index:99999;
+
+}
+.container--landing {
+	padding: 20% 0;
+}
+#landing {
+	h2 {
+		color:var(--gray);
+		margin-bottom:2rem;
+	}
+	h3 {
+		color:var(--gray);
+		font-size:smaller;
+	}
+}

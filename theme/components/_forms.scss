@@ -1,0 +1,32 @@
+
+
+.frm_style_formidable-style.with_frm_style .frm_submit button {
+     
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    &:hover {
+        box-shadow: 0 8px 6px -6px #0a0a0a;
+    }
+}
+.frm_style_formidable-style.with_frm_style .frm_submit button,
+.frm_form_submit_style,
+.frm_style_formidable-style.with_frm_style .frm-edit-page-btn {
+    background: #5193ad;
+    border-color: #5193ad;
+    border-width: 1px;
+    border-radius: 0.3rem;    
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    width: auto;
+}
+.search-overlay {
+    display:flex;
+}
+.search-overlay__top {
+    background-color: #fff;
+}
+input[type="text"] {
+    border-color:white;
+}

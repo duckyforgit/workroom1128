@@ -1,0 +1,191 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+
+$brand-primary: #f55c20;
+$brand-secondary: #00c4e1;
+$brand-secondary: #76ded9;
+$orange: #f55c20;  
+$primary: $orange; // Once we've changed the value, we'll also make it the primary brand color.
+/* :root {
+  --theme-orange: #f55c20;
+  --theme-teal: #00c4e1;
+   #c1a98f 
+} */
+
+/* Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap/_variables.scss, paste it here and edit the value.
+*/
+
+/* teal logo color - brand */
+$secondary: #00c4e1;
+/* Color Theme Swatches in Hex */
+$color-theme_deliberatedoing-deck1-1-hex: #658DA6;
+$color-theme_deliberatedoing-deck1-2-hex: #00ffff;
+$color-theme_deliberatedoing-deck1-3-hex: #f55c20;
+$color-theme_deliberatedoing-deck1-4-hex: #60c3be;
+$color-theme_deliberatedoing-deck1-5-hex: #0D0D0D;
+
+/* Color Theme Swatches in RGBA */
+$color-theme_deliberatedoing-deck1-1-rgba: rgba(101,141,166, 1);
+$color-theme_deliberatedoing-deck1-2-rgba: rgba(0,255,255, 1);
+$color-theme_deliberatedoing-deck1-3-rgba: rgba(245,92,32, 1);
+$color-theme_deliberatedoing-deck1-4-rgba: rgba(95, 195, 190, 1);
+$color-theme_deliberatedoing-deck1-5-rgba: rgba(13,13,13, 1);
+$color-theme_deliberatedoing-deck1-6-rgba: rgba(82, 168, 164, 1);
+
+/* Color Theme Swatches in HSLA */
+/*$color-theme_deliberatedoing-deck1-1-hsla: hsla(203, 27, 52, 1);
+$color-theme_deliberatedoing-deck1-2-hsla: hsla(180, 100, 50, 1);
+$color-theme_deliberatedoing-deck1-3-hsla: hsla(17, 91, 54, 1);
+$color-theme_deliberatedoing-deck1-4-hsla: hsla(177,50.8, 76.5, 1);
+$color-theme_deliberatedoing-deck1-5-hsla: hsla(0, 0, 5, 1); */
+
+$color__brand-color: rgb(0, 196, 225);
+$color__primary-color: #333;
+$color__hover-brand-color: lighten(hsl(188, 100%, 44%), 50%);
+
+$black: $color-theme_deliberatedoing-deck1-5-hex;
+$dark-gray: #333;
+$gray-300: #ddd;
+$gray-200: #eee;
+$gray: #BFBFBD;
+$light-white: #e3e3e3;
+$carousel-transition: transform 2s ease-in-out, opacity .5s ease-in-out;
+$carousel-transition-duration: 3s;
+
+$color__brand-color: $color-theme_deliberatedoing-deck1-4-rgba; 
+$color__hover-brand-color: lighten(#732C26, 50%);
+$primary-color: $primary;
+$secondary-color: $color-theme_deliberatedoing-deck1-4-rgba;
+$secondary-color-dark: darken($color-theme_deliberatedoing-deck1-4-hex, 50%);
+$primary-color-dark: darken($color-theme_deliberatedoing-deck1-3-hex, 10%);
+$tertiary-color: #52A8A4;
+
+.light-orange-background {
+  background-color: #F59B78;
+}
+.yellow-background {
+  background-color:#d9d73d;
+}
+.blue-background {
+  background-color: #5c82a8;
+}
+.periwinkle-background {
+  background-color: #b4c6e7;
+}
+.dark-periwinkle-background {
+  background-color: #6A7B9C;
+}
+.dark-periwinkle {
+  color:#6A7B9C;
+}
+.bnt--teal {
+  background-color: $color-theme_deliberatedoing-deck1-2-rgba;
+}
+.border-light-gray {
+  border: 1px solid #ddd;
+}
+.gray-background {
+  background-color: #edf0f2;
+}
+.has-alert-color {
+  color: #cc4b37;
+}
+.orange-background {
+  background-color: #f8cbad;
+}
+.periwinkle-background {
+  background-color: #b4c6e7;
+}
+.text-color {
+  color: #0d0d0d;
+}
+.primary-color {
+  color: #f55c20;
+}
+.light-white {
+  color: #e3e3e3;
+}
+.text-white-smoke {
+  color: #efefef;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background: #f55c20;
+}
+.primary-color {
+  color: $primary-color;
+}
+.light-white {
+    color: $light-white;
+}
+.border-light-gray {
+    border: 1px solid #ddd;
+}
+.background-primary {
+  background-color: $primary-color;
+} 
+.background-secondary {
+  background-color: #5193AD;
+}
+.background-secondary-dark { 
+  background-color:$color-theme_deliberatedoing-deck1-6-rgba;
+}
+.background-secondary-gradient {
+  background-image: linear-gradient(to right, $color-theme_deliberatedoing-deck1-6-rgba, #65CFC9); 
+}
+.background-secondary-radial-gradient {
+  background-image: radial-gradient(ellipse, #52A8A4, #5FC3BE, #65CFC9);
+  background-image: radial-gradient(ellipse, #52A8A4, #5FC3BE);
+}
+.background-secondary-light {
+  background-color:rgba(82, 168, 164, 0.24);
+}
+.background-antiquewhite {
+	background-color: #d1c7bc;
+}
+.background-purple {
+  background-color: #4e3e59;
+}
+.background-brown {
+  background-color: #bfa688;
+}
+.background-yellow {
+  background: #DBAF63;
+}
+.background-black {
+  background-color: #0d0d0d;
+} 
+.background-gray {
+  background-color: rgba(217, 217, 217, 0.15);
+} 
+.tropical-blue {
+  background-color: rgba(180,196,231, 1);
+}
+.tropical-blue-dark {
+  background-color: rgba(131,144,168, 1);
+}
+$tropical-blue-dark: rgba(131,144,168, 1);
+$grapefruit-light: rgba(240, 210, 112, 0.5);
+$grapefruit-dark: #bda559;
+// Source mixin
+@mixin container-nogutter($padding-x: 0) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: 0;
+  margin-left: 0;
+}
+$color-theme_deliberatedoing-deck1-2-hsla: hsl(186, 100%, 25%);
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+
+$body-bg: #fff;
+$link-color: $color-theme_deliberatedoing-deck1-3-hex !default;
+$link-hover-color: lighten($color-theme_deliberatedoing-deck1-3-hex, 50%) !default;
+$font-family-base:  'Roboto', sans-serif;
+$font-weight-base: 400;

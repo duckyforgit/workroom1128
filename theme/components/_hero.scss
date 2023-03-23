@@ -1,0 +1,334 @@
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+  
+	#hero.hero {
+		background-attachment: scroll; 
+		// background-image: url(../img/patio-enlarged.jpg);
+		background-image: url(../img/SMT-beer-banner.jpg);
+		background-position:20% 30%;
+		background-position:top center;
+		background-repeat:no-repeat;
+		background-size: cover;
+		height: 100vh;
+		min-height:0;
+		padding: 0;
+		position: relative;
+		width: 100%;
+	}
+	.hero .display-2,
+	#hero h1,
+	#hero h2,
+	.hero-heading {
+		font-weight:400;
+		line-height:1.2 !important;
+	} 
+	@include media-breakpoint-up(xl) {
+		#hero.hero,
+		.hero {
+			background-attachment: fixed;
+			background-image: url(../img/SMT-Beer-enlarged.jpg);
+			background-position: left center;
+			background-size: contain;
+		}
+		#hero.hero .hero-heading {
+			text-align:right;
+			font-weight:300;
+		}		
+	} 
+	.hero.banner,
+	.beer.hero.banner,
+	.food-menu.hero.banner,
+	.merchandise.hero.banner,
+	.about.hero.banner,
+	.search.hero.banner,
+	.events.hero.banner,
+	.reserve-room.hero.banner,
+	.hours.hero.banner {
+		// background-image: url('../img/building-banner.jpg');
+		background-repeat: no-repeat;  
+		background-position: center center;
+		background-attachment: fixed;
+		background-size: cover;
+		height:50vh;
+		position:relative; 
+	}
+	.hero.banner {
+		height:30vh;
+	}
+	
+	.beer.hero.banner {
+		background-image: url('../img/SMT-beer-banner.jpg');
+		background-size: contain;
+		background-position: bottom center;
+		height:500px;
+	}
+	.beverage-category.hero.banner {
+		background-image: url('../img/SMT-beer-banner.jpg');
+		background-size: contain;
+		background-position: bottom center;
+		height:500px;
+	}
+	.food-menu.hero.banner {
+		background-image: url('../img/food-banner.jpg');     
+		background-position: 50% 95%;
+		background-size: cover;
+	}
+	.merchandise.hero.banner {
+		// background-image: url('../img/clothing-on-retail-rack.jpg');     
+		 
+		background-size: cover;
+	}
+	.wp-block-cover-image, .wp-block-cover {
+		position: relative;
+		background-size: cover;
+		background-position: center center;
+		min-height: 430px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1em;
+		box-sizing: border-box;
+	}
+	.wp-block-cover-image.has-background-dim:not([class*=-background-color]), .wp-block-cover-image .has-background-dim:not([class*=-background-color]), .wp-block-cover.has-background-dim:not([class*=-background-color]), .wp-block-cover .has-background-dim:not([class*=-background-color]) {
+		background-color: #000;
+	}
+	.wp-block-cover-image img.wp-block-cover__image-background, .wp-block-cover-image video.wp-block-cover__video-background, .wp-block-cover img.wp-block-cover__image-background, .wp-block-cover video.wp-block-cover__video-background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		max-width: none;
+		max-height: none;
+		-o-object-fit: cover;
+		object-fit: cover;
+		outline: none;
+		border: none;
+		box-shadow: none;
+	}
+	.term-mug-club .merchandise.hero.banner {
+		background-image: url('../img/SMT-beer-banner.jpg');
+		background-size: contain;
+		background-position: bottom center;
+		height:500px;
+	} 
+	.about.hero.banner {
+		background-image: url('../img/241630759_4656305604388037_6318032338339445021_n.jpg');     
+		background-position: 50% 95%;
+		background-size: cover;
+	}
+	.events.hero.banner {
+		background-image: url('../img/woman-playing-guitar-cropped.jpg');     
+		background-position: top right;
+		background-size: cover;
+	}
+	.hours.hero.banner {
+		background-image: url('../img/smocktown-times.jpg');     
+		background-position: 70% 50%;
+		background-size: contain;
+	}
+	.reserve-room.hero.banner {
+		background-image: url('../img/party-room.jpg');
+		background-position: center center;
+		background-size: cover;
+	}
+	.search.hero.banner {
+		background-image: url('../img/party-room.jpg');
+		background-position: center center;
+		background-size: cover;
+		height:20vh;
+	}
+	#hero.hero.attic-hardware {
+		background-image: url('../img/Cocktail-md.jpg');
+		background-position: bottom left -190px;
+		background-size: cover;
+		height:80vh;
+	}
+	@include media-breakpoint-up(sm) {
+		#hero.hero.attic-hardware {
+			background-image: url('../img/Cocktail.jpg');
+			background-position: bottom 30px left -96px;
+			background-size: cover;
+			height:100vh;
+		}
+	}
+	@include media-breakpoint-up(md) {
+		#hero.hero.attic-hardware {
+			background-image: url('../img/Cocktail.jpg');
+			background-position: top center;
+			background-size: cover;
+			height:100vh;
+		}
+	}
+	@include media-breakpoint-up(lg) {
+		#hero.hero.attic-hardware {
+			background-image: url('../img/Cocktail.jpg');
+			background-position: top center;
+			background-size: cover;
+			height:100vh;
+		}
+	}
+	.hero blockquote {
+		background-color: rgba(0, 0, 0, 0.4);
+		backdrop-filter: blur(5px);
+	}
+	.hero blockquote {
+		border-left:none;
+		text-align:right
+	}
+	.hero cite {
+		text-align:right;
+	}
+	.hero .blur {
+		background-color: rgba(0, 0, 0, 0.95);
+		backdrop-filter: none;
+		 
+	}
+	@media (min-width: 1024px) {
+		.attachment-fixed {
+			background-attachment: fixed;
+		}
+	} 
+	@media (max-height: 500px) {
+		.hero {
+			height: auto;
+		}
+		.hero .container {
+			padding-top: 130px;
+			padding-bottom: 60px;
+		}
+	}
+	.hero h1 {
+		margin: 0 0 2rem 0;
+		line-height: 56px;
+		color: #ddd;
+		font-family: "Source Serif Pro", serif;
+	}
+	.hero h1 span {
+		color: $primary; 
+	}
+	.hero h2 {
+		color: #eee;
+		font-weight:500;
+		line-height:1.1;
+		 
+	}
+	@include media-breakpoint-up(lg) {
+		.hero h2 {
+			color: #eee;
+			font-weight:300;
+			line-height:1.1;
+		}
+	}
+	.hero .btn,
+	.section-title .btn-cta {    
+		margin-bottom: 2rem;
+	}
+	.hero .btn-cta,
+	.section-title .btn-cta,
+	.btn.btn-cta {
+		font-weight: 600;
+		font-size: 0.95rem;    
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+		display: inline-block;
+		padding: 0.75rem 1.75rem;
+		border-radius: 2px;
+		transition: 0.3s;
+		line-height: 1;
+		color: white;
+		background-color:$secondary;
+		border: 2px solid $secondary;
+		font-size:1.15rem;
+		margin-top:2rem;
+	 
+	} 
+	.hero .btn-cta:hover,
+	.section-title .btn-cta:hover {
+		background: transparent;
+		border-color: $primary;
+		color: #fff;
+	} 
+	.hero blockquote {
+		color:#fefefe;
+		.text-white-smoke {
+			color:#eee;
+			color: rgba(238,238,238,0.5);
+		}
+	}
+	.merchandise.hero.banner h1,
+	.merchandise.hero.banner h2 {
+		background-color: rgba(43, 43, 43, 0.403); /* translucent off-white */
+		backdrop-filter:blur(12px);
+		background: rgba(255,255,255,0.4); /* translucent white */
+		backdrop-filter: blur(10px);
+	}
+/*--------------------------------------------------------------
+# Blend Modes
+--------------------------------------------------------------*/
+.background-image-blend-mode {
+	height:100vh;
+	width:100vw;
+	background: url(../img/patio-lower.jpg), linear-gradient(steelblue, rgb(186, 183, 26));
+	background-blend-mode: overlay;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+.background-image-blend-mode-overlay {
+	height:100vh;
+	width:100vw;
+	  
+	background: url(../img/bar-blue-red.jpg), linear-gradient(#0047AB, rgb(40, 40, 118), rgb(186, 81, 98), red);
+	background-blend-mode: color;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+.background-image-blend-mode-color {
+	height:100vh;
+	width:100vw;
+	// background-color:blue;  
+	background: url(../img/bar-blue-red.jpg);
+	// background: url(../img/bar-blue-red.jpg);
+	background-blend-mode: color;
+	background-color:#1434A4;
+	background-blend-mode: multiply;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+.background-image-blend-mode-wood {
+	height:100vh;
+	width:100%;
+	background-attachment:fixed;
+	// background-color:blue;  
+	background: url(../img/instagram-lights-wall.jpg);
+	// background: url(../img/bar-blue-red.jpg);
+	background-blend-mode: color;
+	background-color:$gray-800;
+	background-blend-mode: multiply;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom center;
+
+}
+.background-image-blend-mode-two-images-duplicate {
+ 
+	background-color:blue;  
+	// background: url(../img/bar-blue-red.jpg), linear-gradient(#0047AB, red);
+	background: url(../img/bar-blue-red.jpg), url(../img/icons/noun-wheat-1975822-300x300.png);
+	background-blend-mode: color;
+	background-blend-mode: hue;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
