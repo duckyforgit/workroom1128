@@ -1,0 +1,36 @@
+/* Optional files - If you dont use the corresponding scripts/fonts comment em out*/
+@import "./theme/theme_variables.scss";  /* <-------- Add your variables into this file. Also add variables to overwrite Bootstrap or elearning-wp-biz variables here */
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';      /* <-------- Loads Bootstrap*/
+@import "./understrap/understrap.scss";  /* <-------- Loads the elearning-wp-biz defaults. Just a few classes to incorporate BS in WP*/
+//@import "./understrap/woocommerce.scss"; /* <-------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce*/
+// * {
+// 	border:1px solid red;
+// }
+ 
+/* Any additional imported files */
+@import "./theme/theme.scss";
+
+// @import "./admin.scss";
+
+// @import "../../node_modules/aos/src/sass/aos.scss"; 							/* <-------- AOS  - Animate on Scroll */
+@import "./components/animate/animate.scss";
+// @import "./components/boxicons/css/boxicons.scss";
+// @import "./components/glightbox/css/glightbox.scss";
+// @import "./components/swiper/swiper-bundle.min.scss";
+// @import "./components/galleries.scss";
+$fa-font-path: '../webfonts';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.scss';
+/* bootstrap icons fonts are in ./fonts/ folder in node-modules. Override to dist/webfonts */
+@font-face {
+	font-family: 'bootstrap-icons';
+	font-weight: normal;
+	font-style: normal;
+	src: url("../webfonts/bootstrap-icons.woff2");
+	src: url("../webfonts/bootstrap-icons.woff2") format("woff2"), url("../webfonts/bootstrap-icons.woff") format("woff") }
+.featured-image-large { width:100% }
+/* single dot = current directory; double dots = one directory up */

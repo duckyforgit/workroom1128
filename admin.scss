@@ -1,0 +1,163 @@
+/*!
+ * Admin Editor Styles
+ */
+.login h1 a {
+    background-image: url('../img/login-logo-transparent.png') !important;
+    -webkit-background-size: 300px;
+    background-size: 300px;
+    height: 169px;
+    width: 300px;
+}
+.line-height-15 {
+    line-height:1.5;
+}
+$orange: #f55c20;  
+$primary: $orange;
+.primary { color: #f55c20 }
+.btn-primary {
+    background-color: $orange;
+    border-color: $orange;
+}
+
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus
+{
+    border-color: #f14f0c;
+    box-shadow: 0 0 0 1px #f55c20;
+}
+.wp-core-ui .button, 
+.wp-core-ui .button-secondary {
+    color:  #f55c20;
+}
+.wp-core-ui .button.hover, 
+.wp-core-ui .button:hover, 
+.wp-core-ui .button-secondary:hover {
+    background: #f55c20;
+    border-color: #f14f0c;
+    color: #0a4b78;
+}
+.wp-core-ui .button-primary, 
+.wp-core-ui .button-primary, 
+.wp-core-ui .button-primary, 
+.wp-core-ui .button-primary{
+    background: #f55c20;
+    border-color: #f14f0c;
+    box-shadow: none;
+    color: #fff;
+}
+.wp-core-ui .button-primary.active, 
+.wp-core-ui .button-primary.active:hover, 
+.wp-core-ui .button-primary.active:focus, 
+.wp-core-ui .button-primary:active {
+    background: #f55c20;
+    border-color: #f14f0c;
+    box-shadow: 0 4px #f14f0c;
+    top: 2px;
+}
+.wp-core-ui .button-primary.hover, 
+.wp-core-ui .button-primary:hover, 
+.wp-core-ui .button-primary.focus, 
+.wp-core-ui .button-primary:focus {
+    background: #f55c20;
+    border-color: #f14f0c;
+    box-shadow: 0 4px #f14f0c;
+    top: 2px;
+}
+
+/**
+ * Login Logout page
+ */
+body.login {
+    background: #76ded9;
+    background: linear-gradient(90deg, #76ded9 0, #60c3be 35%, #5bb6b1 100%);
+    padding: 10px;
+    text-align: center;
+    background: #76ded9;
+    background: linear-gradient(180deg , #76ded9 0, #60c3be 35%, #5bb6b1 100%);
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ 
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+.nav-tabs .nav-link {
+margin-bottom: -1px;
+background: none;
+border: 1px solid transparent;
+border-top-left-radius: 0.25rem;
+border-top-right-radius: 0.25rem;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+border-color: #e9ecef #e9ecef #dee2e6;
+isolation: isolate;
+}
+.nav-tabs .nav-link.disabled {
+color: #6c757d;
+background-color: transparent;
+border-color: transparent;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+color: #495057;
+background-color: #fff;
+border-color: #dee2e6 #dee2e6 #fff;
+}
+.nav-tabs .dropdown-menu {
+margin-top: -1px;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+} 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0d6efd;
+}
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 0.25rem;
+}
+ 
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+color: #fff;
+background-color: #0d6efd;
+}
+  
+.nav-fill > .nav-link,
+.nav-fill .nav-item {
+flex: 1 1 auto;
+text-align: center;
+}
+
+.nav-justified > .nav-link,
+.nav-justified .nav-item {
+flex-basis: 0;
+flex-grow: 1;
+text-align: center;
+}
+
+.nav-fill .nav-item .nav-link,
+.nav-justified .nav-item .nav-link {
+width: 100%;
+}
+
+.tab-content > .tab-pane {
+display: none;
+}
+.tab-content > .active {
+display: block;
+}
